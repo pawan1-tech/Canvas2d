@@ -1,0 +1,4 @@
+/* Tailwind will handle most styling. Keep minimal helpers. */
+.app-container {
+  /* reserved for potential non-utility specific styles */
+}
