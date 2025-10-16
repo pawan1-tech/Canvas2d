@@ -43,7 +43,13 @@ A modern, production-ready web-based 2D canvas editor with real-time persistence
 - ✅ **Best Practices** - Following React 19 patterns
 - ✅ **Clean Code** - 73% reduction in main file complexity
 
-## 🛠️ Tech Stack
+## � Demo
+
+**Live Demo:** [https://canvas2d-bcbe7.web.app/](https://canvas2d-bcbe7.web.app/)
+
+Try it out now! Create, draw, and save your canvas creations in real-time.
+
+## �🛠️ Tech Stack
 
 | Category | Technology |
 |----------|-----------|
@@ -217,17 +223,7 @@ tsc -b
 #### Utilities
 - **cleanForFirestore**: Removes undefined values and handles nested arrays for Firestore compatibility
 
-## 📚 Documentation
 
-Additional documentation files:
-
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Detailed architecture diagrams and data flow
-- **[REFACTORING_SUMMARY.md](REFACTORING_SUMMARY.md)** - Code refactoring results and metrics
-- **[CHECKLIST.md](CHECKLIST.md)** - Testing checklist and deployment guide
-- **[FEATURES.md](FEATURES.md)** - Feature demonstrations and usage examples
-- **[EVALUATION_GUIDE.md](EVALUATION_GUIDE.md)** - Evaluation criteria and scoring guide
-- **[FIREBASE_DEPLOYMENT.md](FIREBASE_DEPLOYMENT.md)** - Step-by-step Firebase hosting guide
-- **[.github/copilot-instructions.md](.github/copilot-instructions.md)** - AI agent instructions
 
 ## 🔧 Configuration
 
@@ -297,34 +293,6 @@ VITE_USE_FIRESTORE_EMULATOR=true
 - [ ] E2E tests with Playwright
 - [ ] Visual regression tests
 
-## 🚀 Deployment
-
-### Quick Deploy to Firebase Hosting
-
-```bash
-# 1. Install Firebase CLI
-npm install -g firebase-tools
-
-# 2. Login to Firebase
-firebase login
-
-# 3. Build your app
-npm run build
-
-# 4. Initialize Firebase Hosting
-firebase init hosting
-# - Select existing project or create new
-# - Set public directory to: dist
-# - Configure as single-page app: Yes
-# - Don't overwrite dist/index.html: No
-
-# 5. Deploy
-firebase deploy
-
-# 🎉 Your app is now live!
-```
-
-**📖 For detailed deployment instructions, see [FIREBASE_DEPLOYMENT.md](FIREBASE_DEPLOYMENT.md)**
 
 ### Build for Production
 ```bash
